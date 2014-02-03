@@ -9,5 +9,3 @@ ZSH_THEME_GIT_PROMPT_PREFIX="["
 ZSH_THEME_GIT_PROMPT_SUFFIX="] $reset_color"
 ZSH_THEME_GIT_PROMPT_DIRTY="$fg[red]"
 ZSH_THEME_GIT_PROMPT_CLEAN="$fg[green]"
-
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
