@@ -3,7 +3,7 @@ function git_prompt_info() {
   echo "$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_PREFIX$(current_branch)$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
-PROMPT='$fg[magenta]⌘ $fg[blue]${PWD/#$HOME/~} $(git_prompt_info)'
+PROMPT='$fg[magenta]🕹  $fg[blue]${PWD/#$HOME/~} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="["
 ZSH_THEME_GIT_PROMPT_SUFFIX="] $reset_color"
